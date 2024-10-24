@@ -1,0 +1,93 @@
+# Build results
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+[Aa][Rr][Mm]/
+[Aa][Rr][Mm]64/
+bld/
+[Bb]in/
+[Oo]bj/
+
+# Ignore all DLLs
+*.dll
+
+# Ignore NUnit framework DLLs
+nunit.framework.dll
+
+# Ignore test result XML files
+TestResult.xml
+*.TestResult.xml
+
+# Visual Studio generated files
+.vs/
+.vscode/
+.vscode-test/
+.vscode-test-out/
+.vscode-out/
+.vsconfig
+*.user
+*.suo
+*.sln.docstates
+*.cache
+
+# Packages
+*.nuget/
+*.snupkg
+*.nupkg
+
+# Mono Auto Generated Files
+mono_crash.*
+.mono/
+
+# Windows image file caches
+Thumbs.db
+ehthumbs.db
+
+# Folder config file
+Desktop.ini
+
+# Recycle Bin used on file shares
+$RECYCLE.BIN/
+
+# Some temporary folders
+[Tt]mp/
+[Tt]emp/
+*.log
+*.lck
+
+# Visual Studio Code workspace history
+.history/
+
+# Visual Studio profiler
+*.psess
+*.vspx
+*.vsp
+
+# Visual Studio 2019 database cache
+# SQL Server files
+*.mdf
+*.ldf
+
+# Rider projects
+.idea/
+.idea_modules/
+.idea_modules_cache/
+
+# JetBrains ReSharper
+.ReSharper*/
+*.DotSettings.user
+
+# Local History for Visual Studio Code
+.history
+
+# Backup files
+*.bak
+*.swp
+
+# NCrunch files
+*.ncrunch*
+
+# Coverage Results
+*.coverage
+*.coveragexml
